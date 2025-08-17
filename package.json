@@ -7,7 +7,7 @@
   "types": "lib/typescript/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "yarn@4.9.2",
   "files": [
     "src",
     "lib",
@@ -26,7 +26,7 @@
     "test": "NODE_ENV=test jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepare": "bob build",
+  "prepare": "husky install && bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
