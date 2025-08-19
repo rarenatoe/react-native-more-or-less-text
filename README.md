@@ -85,7 +85,7 @@ If you seek to give the button font a different weight, then you must specify it
 ## Run example
 
 ```sh
-git clone https://github.com/rarenatoe/more-or-less.git
+git clone https://github.com/rarenatoe/react-native-more-or-less-text.git
 cd more-or-less/example
 yarn install # or npm install
 # to run on iOS

@@ -42,13 +42,13 @@
     "expand",
     "shrink"
   ],
-  "repository": "https://github.com/rarenatoe/more-or-less",
+  "repository": "https://github.com/rarenatoe/react-native-more-or-less-text",
   "author": "Renato Alegre <renatoealegre@gmail.com> (https://github.com/rarenatoe)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rarenatoe/more-or-less/issues"
+    "url": "https://github.com/rarenatoe/react-native-more-or-less-text/issues"
   },
-  "homepage": "https://github.com/rarenatoe/more-or-less#readme",
+  "homepage": "https://github.com/rarenatoe/react-native-more-or-less-text#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
