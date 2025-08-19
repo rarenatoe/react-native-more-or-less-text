@@ -1,9 +1,7 @@
 import React from 'react';
 import { Platform, StyleSheet, Text, TextProps, TextStyle } from 'react-native';
 
-type Ref = any;
-
-const DefaultText = React.forwardRef<Ref, TextProps>(({ style: customStyle, ...props }, ref) => (
+const DefaultText = React.forwardRef<Text, TextProps>(({ style: customStyle, ...props }, ref) => (
   <Text
     ref={ref}
     style={[styles.default, props.onPress && styles.pressable, customStyle]}

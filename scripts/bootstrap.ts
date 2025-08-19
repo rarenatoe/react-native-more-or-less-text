@@ -1,6 +1,6 @@
-const os = require('os');
-const path = require('path');
-const child_process = require('child_process');
+import * as os from 'os';
+import * as path from 'path';
+import * as child_process from 'child_process';
 
 const root = path.resolve(__dirname, '..');
 const args = process.argv.slice(2);
