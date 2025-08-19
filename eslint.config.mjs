@@ -3,6 +3,10 @@ import eslintJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
+  // Ignore build artifacts and compiled files
+  {
+    ignores: ['lib/**/*', 'dist/**/*', 'node_modules/**/*'],
+  },
   // Basic JavaScript linting for all JS files
   {
     files: ['**/*.js', '**/*.mjs', '**/*.cjs'],
